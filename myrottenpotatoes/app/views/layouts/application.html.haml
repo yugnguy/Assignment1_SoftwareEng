@@ -1,0 +1,17 @@
+!!! 5
+%html
+	%head
+		%title Rotten Potatoes!
+		= stylesheet_link_tag 'application'
+		= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
+		= csrf_meta_tags
+     
+	%body
+
+	- if flash[:notice]
+		#notice.message= flash[:notice]
+	- elsif flash[:warning]
+		#warning.message= flash[:warning]
+	= link_to movies_path do 
+		%header{:class=>"banner"} RottenPotatoes
+	= yield
