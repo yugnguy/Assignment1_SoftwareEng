@@ -1,3 +1,7 @@
+#Project 3.10  Augment the Enumerable module with a new iterator, each_permuted, which returns the elements of a collection in a random order.
+#The iterator may assume that the collection responds to each but shouldn’t make any other assumptions about the elements. Hint: you may want to use the
+#rand method in the Ruby standard library.
+
 module Enumerable
   def each_permuted
     generator = Random.new

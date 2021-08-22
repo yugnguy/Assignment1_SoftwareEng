@@ -1,3 +1,7 @@
+#Project 3.13.  Similar to the days.ago example in Section 3.5, define the appropriate conversions between Euros, US Dollars, and Yen so that you can
+#type the following conversions:
+
+
 class Numeric
   @@currencies = {'dollar' => 1, 'yen' => 0.012, 'euro' => 1.3}
 

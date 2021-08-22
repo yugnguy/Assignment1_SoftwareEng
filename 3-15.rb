@@ -1,3 +1,8 @@
+#Project 3.15.
+#Extend the Time class with a humanize method that prints out an informative phrase describing the time of day to the nearest fifteen-minute division, in
+#twelve-hour mode, and making a special case for midnight:
+
+
 require 'time'
 class Time 
 	attr_accessor :string  

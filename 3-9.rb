@@ -1,3 +1,6 @@
+#Project 3.9. Implement an iterator each_with_flattening that behaves as follows:
+#Implement an iterator each_with_flattening that behaves as follows:
+
 module Enumerable 
 
 	def each_with_flattening 

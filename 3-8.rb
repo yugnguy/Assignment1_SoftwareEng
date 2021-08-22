@@ -1,3 +1,8 @@
+#Project 3.8.Recall that the first two integers in the Fibonacci sequence are 1 and 1, and each successive Fibonacci number
+#is the sum of the previous two. Create a class that returns an iterator for the first n Fibonacci numbers. 
+#You should be able to use the class as follows
+
+
 class FibSequence
     include Enumerable
     def initialize(num)
